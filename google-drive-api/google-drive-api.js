@@ -6,7 +6,7 @@ addEventListener('fetch', event => {
 // Configuración de OAuth2
 const CLIENT_ID = process.env.REACT_APP_GOOGLE_OAUTH_CLIENT_ID;
 const CLIENT_SECRET = process.env.REACT_APP_GOOGLE_OAUTH_CLIENT_SECRET;
-const REDIRECT_URI = 'http://localhost:5173/oauth2callback';
+const REDIRECT_URI = 'https://check-certificado.vercel.app/oauth2callback';
 const SCOPES = ['https://www.googleapis.com/auth/drive.file'];
 
 async function handleRequest(request) {
