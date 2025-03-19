@@ -1,0 +1,6 @@
+name = "google-drive-api"
+main = "workers/google-drive-api.js"
+compatibility_date = "2023-05-18"
+
+# Usar workers.dev en lugar de un dominio personalizado
+workers_dev = true
